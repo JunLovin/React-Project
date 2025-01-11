@@ -1,0 +1,18 @@
+:root {
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --red: hsl(0, 100%, 55%);
+}
+
+body {
+  background-color: var(--black);
+  height: 95vh;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 0 2rem;
+  transition: background-color 100ms ease-in-out;
+}
+
+body.dark-bg {
+  background-color: var(--white);
+  color: var(--black) !important;
+}
