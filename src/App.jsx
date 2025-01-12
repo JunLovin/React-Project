@@ -1,5 +1,4 @@
 import './App.css'
-
 function App() {
   function handleBackgroundColor() {
     document.body.classList.toggle('dark-bg');
